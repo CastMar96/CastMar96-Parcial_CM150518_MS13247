@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Calculo de salario mensual</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body >
+<header>
+ <h1>Calculo de salario</h1>
+</header>
+    <section>
+    <article id="formarea">
+        <form name="frmpalabras" method="POST" action="CalcularPago.php" >
+        <fieldset style ="font-weight: bolder;">
+            <label>Datos del empleado1:</label><br>
+            <label for="nombre1">Nombre:</label>
+            <input type="text" name="nombre1" id="nombre1" placeholder="Nombre" />
+
+            <label for="apellido1">Apellido:</label>
+            <input type="text" name="apellido1" id="apellido1" placeholder="Apellido" />
+
+            <label for="cargo1">Cargo:</label>
+            <input type="text" name="cargo1" id="cargo1" placeholder="Cargo" />
+
+            <label for="horas1">Horas trabajadas:</label>
+            <input type="text" name="horas1" id="horas1" placeholder="Horas" /><br><br>
+
+            <label>Datos del empleado2:</label><br>
+            <label for="nombre2">Nombre:</label>
+            <input type="text" name="nombre2" id="nombre2" placeholder="Nombre" />
+
+            <label for="apellido2">Apellido:</label>
+            <input type="text" name="apellido2" id="apellido2" placeholder="Apellido" />
+
+            <label for="cargo2">Cargo:</label>
+            <input type="text" name="cargo2" id="cargo2" placeholder="Cargo" />
+            
+            <label for="horas2">Horas trabajadas:</label>
+            <input type="text" name="horas2" id="horas2" placeholder="Horas" /><br><br>
+
+            <input type="submit" name="calcular" id="calcular" value="Calcular" style= "font-size:11pt; color:white;
+            background-color:green;" />
+        </fieldset>
+        </form>
+    </article>
+    </section>
+</body>
+</html>
